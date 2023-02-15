@@ -1,0 +1,7 @@
+Create a React application that allows users to search for a specific country and display information about that country, such as its flag, population, and capital. The application should make use of the useState and useEffect hooks, as well as a custom hook to handle the API calls. 
+1.	Use the useState hook to create a state variable for the search term and another for the country information. 
+2.	Use the useEffect hook to fetch data from the REST Countries API (https://restcountries.com/) when the search term changes. 
+3.	Create a custom hook that handles the API call and returns the data. 
+4.	Display the flag, population, and capital of the country when the user submits the search form. 
+5.	Handle the case when no country is found for the given search term. 
+6.	Add a loading state while the data is being fetched.
